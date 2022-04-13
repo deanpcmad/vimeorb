@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    vimeorb (0.1.1)
+      faraday (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.7.6)
+    faraday (2.2.0)
+      faraday-net_http (~> 2.0)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (2.0.2)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  dotenv
+  rake (~> 13.0)
+  vimeorb!
+
+BUNDLED WITH
+   2.3.6
