@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    vimeorb (0.1.1)
+    vimeorb (0.1.2)
       faraday (~> 2.0)
 
 GEM
@@ -24,4 +24,4 @@ DEPENDENCIES
   vimeorb!
 
 BUNDLED WITH
-   2.3.6
+   2.3.5

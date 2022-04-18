@@ -35,6 +35,10 @@ params = {title: "New Title"}
 
 # Delete a Video
 @client.videos.delete(id: "abc123")
+
+# Upload a Video using resumable uploads
+# This splits the file into 128MB chunks while uploading
+@client.videos.upload(file: File.new("my_video.mp4"))
 ```
 
 ## Contributing
